@@ -38,7 +38,7 @@ class AddSubjectForm(forms.Form):
     )
 
 
-class AddStatusForm(forms.Form):
+class AddStatusForm(forms.Form): #11111
     name = forms.CharField(
         max_length=50,
         error_messages=error_messages
